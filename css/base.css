@@ -549,3 +549,31 @@ footer {
 	visibility: visible;
 	opacity: 1;
 }
+
+/* 文章列表缩略图，鼠标悬浮放大begin */
+i{
+  overflow: hidden;
+}
+i img{
+  cursor: pointer;
+  transition: all 0.6s;
+}
+i img:hover{
+  transform: scale(1.4);
+}
+/* 文章列表缩略图，鼠标悬浮放大end */
+
+.category{
+	display: inline-block;
+    min-width: 50px;
+    padding: 0 10px;
+    position: absolute;
+    left: 20px;
+    z-index: 2;
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+}
